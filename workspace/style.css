@@ -1,12 +1,36 @@
 body {
-	background-color: black;
+	background-color: #f3f3f3;
 	text-align: center;
-	color: white;
+	color: #201414;
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .splitter {
-	height: 10px;
+	height: 2px;
 	width: 100%;
-	background-color: rgb(0, 0, 59);
+	background-color: rgb(0, 0, 0);
+	border-radius: 200000px;
+}
+
+.navbar {
+	height: 30px;
+	width: 100%;
+	background-color: rgba(255, 255, 255, 0);
+	border-radius: 200000px;
+	text-align: left;
+
+	overflow: hidden;
+}
+
+.navbtn {
+	border-radius: 200000px;
+	background: rgba(2,0,36, 0);
+	background: linear-gradient(29deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 15%, rgba(0,212,255,1) 100%);
+	color: antiquewhite;
+	outline-width: 0px;
+	font-size: large;
+	text-align: center;
+	align-items: center;
+	overflow: hidden;
+	outline-style: none;
 }
